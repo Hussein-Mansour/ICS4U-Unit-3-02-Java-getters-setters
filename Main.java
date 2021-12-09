@@ -21,15 +21,15 @@ final class Main {
     /**
     * String.
     */
-    public static final int STR = "The stack list";
+    public static final String STR = "The stack list";
     /**
     * String.
     */
-    public static final int STRONE = "Adding 10: ";
+    public static final String STRONE = "Adding 10: ";
     /**
     * String.
     */
-    public static final int STRTWO = "End of stack list ";
+    public static final String STRTWO = "End of stack list ";
     /**
     * Space.
     */
