@@ -31,8 +31,10 @@ public class HsenStack {
     *
     * @param popStack stack.
     */
-    public void pop(final int popStack) {
-        stack.remove(popStack);
+    public int pop() {
+        final int returnpop = stack.get(0);
+        stack.remove(0);
+        return returnpop;
     }
 
     /**

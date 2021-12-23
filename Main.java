@@ -88,10 +88,10 @@ final class Main {
         System.out.print(SPACE + STRTWO + SPACE);
 
         // Pop top element
-        System.out.print(SPACE + STR);
-        System.out.println(SPACE + "Pop top element: " + SPACE);
-        stack.pop(0);
+        System.out.print(SPACE + STR + SPACE);
+        System.out.println(SPACE + "Popped element: " +  stack.pop());
 
+        System.out.println(SPACE + "Stack after pop operation: ");
         stack.showStack();
         System.out.println(SPACE + STRTWO + SPACE);
 
